@@ -346,7 +346,7 @@ def build_report() -> dict:
 
     story.append(Paragraph("APPENDIX A - REPRODUCTION AND AI-USE DECLARATION", styles["ReportHeading1"]))
     story.append(Paragraph(
-        "Repository: <a href='https://github.com/22Ku-Li/mfe310tc-clinc150' color='blue'>https://github.com/22Ku-Li/mfe310tc-clinc150</a>. This private repository requires marker access to be granted. The submitted ZIP provides the fixed data, code and evidence snapshot; README.md documents reproduction commands. Original TextCNN checkpoints are absent. A separately retrained M0 reproduced all 3,100 archived validation labels; probability equivalence was not checked. An independent audit passed 1,256 data and metric checks; historical neural training and the full test suite were not independently rerun.",
+        "Repository: <a href='https://github.com/22Ku-Li/mfe310tc-clinc150' color='blue'>https://github.com/22Ku-Li/mfe310tc-clinc150</a>. This public repository can be read without signing in; markers do not need an invitation. The submitted ZIP provides the fixed data, code and evidence snapshot; README.md documents reproduction commands. Original TextCNN checkpoints are absent. A separately retrained M0 reproduced all 3,100 archived validation labels; probability equivalence was not checked. An independent audit passed 1,256 data and metric checks; historical neural training and the full test suite were not independently rerun.",
         styles["ReportSmall"],
     ))
     story.append(Paragraph(
@@ -360,7 +360,7 @@ def build_report() -> dict:
     build_info = {
         "output": OUTPUT_PATH.name,
         "approximate_body_words_excluding_references_and_appendices": len(words),
-        "status": "cpu_report_prepared_private_repository_access_required",
+        "status": "cpu_report_prepared_public_repository_available",
         "model_variant": "TextCNN",
         "m1_m2_formal_cpu_results_present": True,
         "official_test_results_present": True,
