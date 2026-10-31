@@ -12,7 +12,7 @@ How accurately can a manufacturing-assistant text interface classify supported u
 
 ## Current status
 
-Repository: https://github.com/22Ku-Li/mfe310tc-clinc150. It is private; marker access must be granted before assessment. The accompanying submission ZIP is the fixed data, code and result snapshot.
+Repository: https://github.com/22Ku-Li/mfe310tc-clinc150. It is public and can be read without signing in; markers do not need an invitation. The accompanying submission ZIP is the fixed data, code and result snapshot.
 
 
 - [x] Pin and verify the official UCI `data_full` dataset.
@@ -243,7 +243,7 @@ Liang, X., Wu, L., Li, J., Wang, Y., Meng, Q., Qin, T., Chen, W., Zhang, M., & L
 
 ChatGPT assisted in reviewing and revising the packaging, code, audit, report, and presentation and in independently retraining an M0 baseline for demonstration after the originally disclosed Kimi Work assistance. The student must verify the final work and declare the actual tools and uses.
 
-This copy redacts the original private project-root prefix from saved run-metadata command strings, preserving the script name and arguments. These entries document commands from the prior environment, rather than verbatim private absolute paths. Data, predictions, metrics and training logs have not been changed. Historical audit files predate these revisions; the separately saved current recheck is described below. The updated report includes the repository URL and retains the CPU-only and missing-checkpoint disclosures. Marker access, the individual recording and student verification remain necessary.
+This copy redacts the original private project-root prefix from saved run-metadata command strings, preserving the script name and arguments. These entries document commands from the prior environment, rather than verbatim private absolute paths. Data, predictions, metrics and training logs have not been changed. Historical audit files predate these revisions; the separately saved current recheck is described below. The updated report includes the repository URL and retains the CPU-only and missing-checkpoint disclosures. The repository provides public read access. The narrated individual presentation video is submitted separately with the coursework materials; student verification of the final work remains necessary.
 
 
 ### Verification of the revised package
