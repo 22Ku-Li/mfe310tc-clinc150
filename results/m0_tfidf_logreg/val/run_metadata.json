@@ -1,0 +1,12 @@
+{
+  "command": "src/train_baseline.py --config configs/baseline.yaml --split val",
+  "python_version": "3.12.14 (main, Sep  1 2026, 14:17:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy_version": "2.4.4",
+  "pandas_version": "3.0.2",
+  "scikit_learn_version": "1.9.0",
+  "config_sha256": "e267d91df48e97209afe3320d58fbd86e0689104979db9bd3c738c907130370c",
+  "train_csv_sha256": "42ca9face28c6adf1bbfd771e280f4de5d630b953208088c8378c56c44e98702",
+  "evaluation_csv_sha256": "814a159864c53603e50be401616738c046146bbcfc9c344c932d3374957150e6",
+  "test_used_for_model_selection": false
+}

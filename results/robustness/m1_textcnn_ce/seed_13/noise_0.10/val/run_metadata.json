@@ -1,0 +1,12 @@
+{
+  "command": "src/evaluate_textcnn.py --checkpoint checkpoints/m1_textcnn_ce/seed_13/best --split val --noise-rate 0.10 --device cpu",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.12.14 (main, Sep  1 2026, 14:17:39) [MSC v.1944 64 bit (AMD64)]",
+  "numpy_version": "2.5.4",
+  "pandas_version": "3.0.2",
+  "torch_version": "2.14.1+cpu",
+  "evaluation_csv_sha256": "814a159864c53603e50be401616738c046146bbcfc9c344c932d3374957150e6",
+  "noise_seed": 20261028,
+  "test_used_for_model_selection": false,
+  "approved_remote_linux_gpu_used": false
+}

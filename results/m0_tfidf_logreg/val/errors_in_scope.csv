@@ -1,0 +1,26 @@
+sample_id,text,true_label,predicted_label,predicted_probability,true_label_probability,oos_score,correct,error_type
+val_val_01011,what is on my to do list,reminder,todo_list,0.95750684,0.00081486866,8.555289e-05,False,in_scope_confusion
+val_val_00825,tell me about the chase credit card application process,new_card,application_status,0.88633454,0.02680533,0.0008774507,False,in_scope_confusion
+val_val_00199,show me a plan to help my credit score rating,improve_credit_score,credit_score,0.88583213,0.058080025,0.00065166526,False,in_scope_confusion
+val_val_00685,how much money have i spent on restaurants,transactions,spending_history,0.84259915,0.0012330712,0.0029303418,False,in_scope_confusion
+val_val_00498,allow me to turn on the lights,restaurant_reservation,smart_home,0.7435517,0.0013389917,0.0036199228,False,in_scope_confusion
+val_val_02619,how do i get my rewards from my visa card,redeem_rewards,rewards_balance,0.73962367,0.10527983,0.0013193574,False,in_scope_confusion
+val_val_02014,when did i change my oil,last_maintenance,oil_change_when,0.7318874,0.14830999,0.0037627867,False,in_scope_confusion
+val_val_02568,how much do i have to pay on taxes and cable,bill_balance,taxes,0.7111722,0.03497721,0.0031744738,False,in_scope_confusion
+val_val_02618,how do i get rewards from my visa card,redeem_rewards,rewards_balance,0.7041911,0.122563526,0.0017083487,False,in_scope_confusion
+val_val_00926,you are not wrong about that,yes,no,0.69943875,0.007968834,0.0026938159,False,in_scope_confusion
+val_val_02912,what do i get paid,income,payday,0.6956368,0.025161082,0.0059780353,False,in_scope_confusion
+val_val_00181,what will help my credit score,improve_credit_score,credit_score,0.69518983,0.2644176,0.0005157264,False,in_scope_confusion
+val_val_00184,will getting a credit card help my credit score,improve_credit_score,credit_score,0.6863231,0.22445734,0.0003154442,False,in_scope_confusion
+val_val_00607,can you tell me the drive time to the nearest gas station,distance,directions,0.670174,0.030812487,0.003392851,False,in_scope_confusion
+val_val_00974,how is my insurance coverage,insurance,insurance_change,0.6411172,0.1262067,0.012999906,False,in_scope_confusion
+val_val_02803,were you born in the 80s,how_old_are_you,where_are_you_from,0.63789505,0.11736099,0.015379101,False,in_scope_confusion
+val_val_02525,did i add salt to my shopping list,shopping_list,shopping_list_update,0.63451636,0.2652138,0.0011796539,False,in_scope_confusion
+val_val_02461,how can up my credit limit,credit_limit_change,credit_limit,0.63363725,0.29613584,0.0008113704,False,in_scope_confusion
+val_val_00991,erase the items on my to do list,todo_list_update,todo_list,0.6110153,0.29161105,0.001354471,False,in_scope_confusion
+val_val_02617,how do you get your visa card rewards,redeem_rewards,rewards_balance,0.60602206,0.0832115,0.0017810421,False,in_scope_confusion
+val_val_02187,what do i get taxed at my income level,taxes,income,0.56870675,0.093362324,0.0059152474,False,in_scope_confusion
+val_val_00965,what insurance do i have,insurance,insurance_change,0.56824905,0.21227911,0.0031474617,False,in_scope_confusion
+val_val_02900,what's my income before taxes,income,taxes,0.56021965,0.3356124,0.0024043845,False,in_scope_confusion
+val_val_00941,what's the best restaurant in arizona for pizza,travel_suggestion,restaurant_suggestion,0.55667233,0.028068481,0.023953715,False,in_scope_confusion
+val_val_00975,my insurance plan is what,insurance,insurance_change,0.53750294,0.44179094,0.00056202995,False,in_scope_confusion

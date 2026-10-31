@@ -1,0 +1,4 @@
+split,rows,in_scope_rows,oos_rows,unique_labels,unique_texts,missing_text,missing_labels,empty_text,duplicate_text_extra_rows,duplicate_text_label_extra_rows,mean_words,p95_words,max_words
+train,15100,15000,100,151,15100,0,0,0,0,0,8.330728476821193,14.0,28
+val,3100,3000,100,151,3100,0,0,0,0,0,8.281935483870967,15.0,24
+test,5500,4500,1000,151,5500,0,0,0,0,0,8.292,14.0,25

@@ -1,0 +1,17 @@
+2026-10-28 01:43:30,916 | INFO | Experiment=m1_textcnn_ce seed=42 device=cpu
+2026-10-28 01:43:30,916 | INFO | CPU-only run; approved remote GPU practice is not claimed.
+2026-10-28 01:43:30,917 | INFO | Train=15100 validation=3100 labels=151 vocabulary=2875 parameters=453251
+2026-10-28 01:43:30,917 | INFO | Loss=cross_entropy R-Drop alpha=0.0
+2026-10-28 01:43:35,546 | INFO | Epoch 1 | train 4.40785 | val CE 2.88727 | Macro-F1 0.52108 | OOS-F1 0.29412
+2026-10-28 01:43:40,359 | INFO | Epoch 2 | train 1.98748 | val CE 1.40409 | Macro-F1 0.72526 | OOS-F1 0.28358
+2026-10-28 01:43:44,911 | INFO | Epoch 3 | train 1.12788 | val CE 1.03698 | Macro-F1 0.79959 | OOS-F1 0.42623
+2026-10-28 01:43:49,575 | INFO | Epoch 4 | train 0.79008 | val CE 0.86890 | Macro-F1 0.82000 | OOS-F1 0.48276
+2026-10-28 01:43:54,278 | INFO | Epoch 5 | train 0.60443 | val CE 0.79159 | Macro-F1 0.83140 | OOS-F1 0.38356
+2026-10-28 01:43:58,924 | INFO | Epoch 6 | train 0.48853 | val CE 0.70517 | Macro-F1 0.85178 | OOS-F1 0.55914
+2026-10-28 01:44:03,632 | INFO | Epoch 7 | train 0.41201 | val CE 0.68121 | Macro-F1 0.85596 | OOS-F1 0.56354
+2026-10-28 01:44:08,282 | INFO | Epoch 8 | train 0.35363 | val CE 0.65778 | Macro-F1 0.86531 | OOS-F1 0.55621
+2026-10-28 01:44:12,864 | INFO | Epoch 9 | train 0.31807 | val CE 0.63852 | Macro-F1 0.87459 | OOS-F1 0.56977
+2026-10-28 01:44:17,441 | INFO | Epoch 10 | train 0.29097 | val CE 0.62137 | Macro-F1 0.87241 | OOS-F1 0.57627
+2026-10-28 01:44:22,146 | INFO | Epoch 11 | train 0.25793 | val CE 0.61171 | Macro-F1 0.87555 | OOS-F1 0.57303
+2026-10-28 01:44:26,750 | INFO | Epoch 12 | train 0.25753 | val CE 0.61039 | Macro-F1 0.87615 | OOS-F1 0.57955
+2026-10-28 01:44:26,956 | INFO | Best epoch=12 Macro-F1=0.876146

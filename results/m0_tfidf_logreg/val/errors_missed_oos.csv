@@ -1,0 +1,16 @@
+sample_id,text,true_label,predicted_label,predicted_probability,true_label_probability,oos_score,correct,error_type
+val_oos_val_00040,what's the definition of nuclear engineering,oos,definition,0.8021533,0.010852833,0.010852833,False,missed_oos
+val_oos_val_00042,what is naval engineering,oos,calculator,0.54866433,0.06267697,0.06267697,False,missed_oos
+val_oos_val_00052,how are my cannabis stocks doing,oos,greeting,0.47129172,0.01586335,0.01586335,False,missed_oos
+val_oos_val_00051,where does cannabis originate from,oos,where_are_you_from,0.43390423,0.028156403,0.028156403,False,missed_oos
+val_oos_val_00033,is it true that nicotine is harder to kick than heroin,oos,yes,0.433903,0.01039647,0.01039647,False,missed_oos
+val_oos_val_00094,you want to know about current time now,oos,time,0.39315775,0.003518544,0.003518544,False,missed_oos
+val_oos_val_00028,how long does it take to become an architect,oos,cook_time,0.37948796,0.018331168,0.018331168,False,missed_oos
+val_oos_val_00022,am kind of busy now,oos,how_busy,0.33779418,0.010557255,0.010557255,False,missed_oos
+val_oos_val_00089,where do eggs come from,oos,where_are_you_from,0.2762118,0.030312173,0.030312173,False,missed_oos
+val_oos_val_00083,what is the friendliest breed,oos,calculator,0.2581383,0.1262232,0.1262232,False,missed_oos
+val_oos_val_00079,what does it mean if i dream of falling off a building,oos,definition,0.24452654,0.046750225,0.046750225,False,missed_oos
+val_oos_val_00095,what does it mean to have equality,oos,definition,0.2397818,0.0511295,0.0511295,False,missed_oos
+val_oos_val_00015,when was the last time the president visited floridau,oos,last_maintenance,0.23016994,0.061557792,0.061557792,False,missed_oos
+val_oos_val_00044,where do black holes come from,oos,where_are_you_from,0.2193039,0.033833403,0.033833403,False,missed_oos
+val_oos_val_00007,how long will it take me to pay off my card if i pay an extra $50 a month over the minimum,oos,min_payment,0.218196,0.007386478,0.007386478,False,missed_oos

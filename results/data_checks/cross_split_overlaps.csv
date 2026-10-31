@@ -1,0 +1,7 @@
+split_a,split_b,kind,shared_unique_texts,examples
+train,val,exact,3,hey what's up ||| turn up your volume ||| what is on my to do list
+train,val,normalized,3,hey what's up ||| turn up your volume ||| what is on my to do list
+train,test,exact,2,what's your designation ||| where did you grow up
+train,test,normalized,2,what's your designation ||| where did you grow up
+val,test,exact,0,
+val,test,normalized,0,

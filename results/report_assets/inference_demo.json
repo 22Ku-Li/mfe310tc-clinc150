@@ -1,0 +1,26 @@
+[
+  {
+    "input": "what does post rush hour traffic generally look like heading into the lincoln tunnel in manhattan from new jersey",
+    "reference_label": "traffic",
+    "predicted_label": "traffic",
+    "confidence": 0.9390702843666077,
+    "oos_probability": 0.048810869455337524,
+    "correct": true
+  },
+  {
+    "input": "in what movie did mrs congeniality feature a contestant championing for world peace",
+    "reference_label": "oos",
+    "predicted_label": "oos",
+    "confidence": 0.9323392510414124,
+    "oos_probability": 0.9323392510414124,
+    "correct": true
+  },
+  {
+    "input": "this song needs to be added to my country music playlist",
+    "reference_label": "update_playlist",
+    "predicted_label": "play_music",
+    "confidence": 0.7777245044708252,
+    "oos_probability": 1.562130762522429e-07,
+    "correct": false
+  }
+]

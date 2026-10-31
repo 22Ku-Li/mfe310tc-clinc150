@@ -1,0 +1,20 @@
+{
+  "purpose": "Independent CPU retraining of M0 baseline; not the original historical model checkpoint.",
+  "device": "CPU",
+  "approved_remote_linux_gpu_used": false,
+  "training_command": "python -m src.train_baseline --config configs/baseline.yaml --split val",
+  "python_version": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "pandas_version": "2.2.3",
+  "scikit_learn_version": "1.8.0",
+  "joblib_version": "1.5.3",
+  "pyyaml_version": "6.0.3",
+  "validation_predicted_labels_matching_original": 3100,
+  "validation_rows": 3100,
+  "original_versus_new_probability_values_identical": "not verified",
+  "test_evaluated": false,
+  "remarks": "Uses fixed original training split and baseline configuration. This new checkpoint and demo do not reproduce TextCNN model weights.",
+  "artifact_sha256": "441794fb79b39af47b275c4821aa7a53fcbe14c3c21d03a1eaafe7a1c401dbab"
+}

@@ -1,0 +1,26 @@
+{
+  "rows": 3100,
+  "accuracy": 0.8938709677419355,
+  "macro_precision": 0.9020281955428227,
+  "macro_recall": 0.9082781456953645,
+  "macro_f1": 0.9003067307823057,
+  "weighted_f1": 0.8897944989293138,
+  "in_scope_rows": 3000,
+  "in_scope_accuracy": 0.912,
+  "in_scope_macro_f1": 0.9121531194972299,
+  "oos_rows": 100,
+  "oos_precision": 0.8333333333333334,
+  "oos_recall": 0.35,
+  "oos_f1": 0.49295774647887325,
+  "oos_auroc": 0.9509066666666667,
+  "experiment": "m0_tfidf_logreg",
+  "split": "val",
+  "seed": 42,
+  "feature_count": 32755,
+  "fit_seconds": 19.68618990003597,
+  "inference_seconds": 0.3954830000875518,
+  "mean_inference_ms_per_utterance": 0.12757516131856508,
+  "iterations": [
+    25
+  ]
+}

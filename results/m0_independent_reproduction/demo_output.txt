@@ -1,0 +1,11 @@
+M0: TF-IDF + logistic regression (independent CPU retraining)
+Scores are not calibrated guarantees of correctness.
+
+Input: what is the weather tomorrow
+Predicted label: weather
+Model score: 0.9625
+
+Input: how do i repair an industrial robot controller
+Predicted label: oos
+Model score: 0.0592
+

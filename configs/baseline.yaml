@@ -1,0 +1,30 @@
+experiment_name: m0_tfidf_logreg
+seed: 42
+
+data:
+  train_path: data/processed/train.csv
+  val_path: data/processed/val.csv
+  test_path: data/processed/test.csv
+
+features:
+  lowercase: true
+  strip_accents: unicode
+  word_ngram_min: 1
+  word_ngram_max: 2
+  word_min_df: 2
+  word_max_features: 50000
+  char_ngram_min: 3
+  char_ngram_max: 5
+  char_min_df: 2
+  char_max_features: 50000
+  sublinear_tf: true
+
+model:
+  solver: lbfgs
+  C: 1.0
+  max_iter: 300
+  tol: 0.0001
+
+evaluation:
+  oos_label: oos
+  default_split: val

@@ -1,0 +1,18 @@
+{
+  "status": "passed_with_missing_checkpoints",
+  "checks_performed": 1256,
+  "prediction_files_audited": 30,
+  "m0_noise_groups_audited": 6,
+  "raw_rows_audited": 23700,
+  "checkpoints_available": 0,
+  "checkpoints_missing": [
+    "m1_textcnn_ce/seed_13",
+    "m1_textcnn_ce/seed_42",
+    "m1_textcnn_ce/seed_87",
+    "m2_textcnn_rdrop/seed_13",
+    "m2_textcnn_rdrop/seed_42",
+    "m2_textcnn_rdrop/seed_87"
+  ],
+  "provenance_limit": "Saved metadata assertions and metrics cannot independently prove historical training or test ordering.",
+  "errors": []
+}

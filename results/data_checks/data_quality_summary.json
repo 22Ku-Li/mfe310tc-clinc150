@@ -1,0 +1,130 @@
+{
+  "dataset": "CLINC150 data_full",
+  "total_rows": 23700,
+  "in_scope_label_count": 150,
+  "includes_oos_as_151st_class": true,
+  "split_summary": [
+    {
+      "split": "train",
+      "rows": 15100,
+      "in_scope_rows": 15000,
+      "oos_rows": 100,
+      "unique_labels": 151,
+      "unique_texts": 15100,
+      "missing_text": 0,
+      "missing_labels": 0,
+      "empty_text": 0,
+      "duplicate_text_extra_rows": 0,
+      "duplicate_text_label_extra_rows": 0,
+      "mean_words": 8.330728476821193,
+      "p95_words": 14.0,
+      "max_words": 28
+    },
+    {
+      "split": "val",
+      "rows": 3100,
+      "in_scope_rows": 3000,
+      "oos_rows": 100,
+      "unique_labels": 151,
+      "unique_texts": 3100,
+      "missing_text": 0,
+      "missing_labels": 0,
+      "empty_text": 0,
+      "duplicate_text_extra_rows": 0,
+      "duplicate_text_label_extra_rows": 0,
+      "mean_words": 8.281935483870967,
+      "p95_words": 15.0,
+      "max_words": 24
+    },
+    {
+      "split": "test",
+      "rows": 5500,
+      "in_scope_rows": 4500,
+      "oos_rows": 1000,
+      "unique_labels": 151,
+      "unique_texts": 5500,
+      "missing_text": 0,
+      "missing_labels": 0,
+      "empty_text": 0,
+      "duplicate_text_extra_rows": 0,
+      "duplicate_text_label_extra_rows": 0,
+      "mean_words": 8.292,
+      "p95_words": 14.0,
+      "max_words": 25
+    }
+  ],
+  "train_in_scope_examples_per_intent": {
+    "minimum": 100,
+    "maximum": 100,
+    "mean": 100.0
+  },
+  "length_statistics_by_split": {
+    "train": {
+      "minimum": 1,
+      "median": 8.0,
+      "mean": 8.330728476821193,
+      "p95": 14.0,
+      "maximum": 28
+    },
+    "val": {
+      "minimum": 1,
+      "median": 8.0,
+      "mean": 8.281935483870967,
+      "p95": 15.0,
+      "maximum": 24
+    },
+    "test": {
+      "minimum": 1,
+      "median": 8.0,
+      "mean": 8.292,
+      "p95": 14.0,
+      "maximum": 25
+    }
+  },
+  "cross_split_overlaps": [
+    {
+      "split_a": "train",
+      "split_b": "val",
+      "kind": "exact",
+      "shared_unique_texts": 3,
+      "examples": "hey what's up ||| turn up your volume ||| what is on my to do list"
+    },
+    {
+      "split_a": "train",
+      "split_b": "val",
+      "kind": "normalized",
+      "shared_unique_texts": 3,
+      "examples": "hey what's up ||| turn up your volume ||| what is on my to do list"
+    },
+    {
+      "split_a": "train",
+      "split_b": "test",
+      "kind": "exact",
+      "shared_unique_texts": 2,
+      "examples": "what's your designation ||| where did you grow up"
+    },
+    {
+      "split_a": "train",
+      "split_b": "test",
+      "kind": "normalized",
+      "shared_unique_texts": 2,
+      "examples": "what's your designation ||| where did you grow up"
+    },
+    {
+      "split_a": "val",
+      "split_b": "test",
+      "kind": "exact",
+      "shared_unique_texts": 0,
+      "examples": ""
+    },
+    {
+      "split_a": "val",
+      "split_b": "test",
+      "kind": "normalized",
+      "shared_unique_texts": 0,
+      "examples": ""
+    }
+  ],
+  "normalized_texts_with_conflicting_labels": 4,
+  "leakage_policy": "Original splits are fixed. Vectorizers and classifiers are fitted on train only. Validation is for model selection; final test evaluation is run only after configuration freeze."
+}

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Downloaded and processed data (restore with src/data.py)
+data/raw/
+data/processed/
+
+# Model binaries, local checkpoints, and Hub cache
+artifacts/*
+!artifacts/m0_tfidf_logreg_retrained.parts/
+!artifacts/m0_tfidf_logreg_retrained.parts/**
+checkpoints/
+.cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

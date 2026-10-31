@@ -1,0 +1,37 @@
+{
+  "pages": 5,
+  "body_prose_word_count_from_builder": 2284,
+  "conservative_body_and_appendix_words_including_headers_tables_captions": 2688,
+  "word_count_excludes": [
+    "cover",
+    "references"
+  ],
+  "permitted_report_word_range": [
+    2250,
+    2750
+  ],
+  "repository_url": "https://github.com/22Ku-Li/mfe310tc-clinc150",
+  "repository_visibility": "private; marker access still required",
+  "repository_link_annotation_verified": true,
+  "visual_qa": "all five pages reviewed; final page columns balanced; no clipping or overlap",
+  "cpu_only_disclosure_preserved": true,
+  "missing_neural_checkpoint_disclosure_preserved": true,
+  "instructor_solo_approval_basis": "reported by student",
+  "personal_contribution_claims_added": false,
+  "remaining_user_actions": [
+    "verify cover identity and own understanding / contributions",
+    "grant marker access to private repository",
+    "record individual presentation and demo",
+    "submit and verify files on Learning Mall"
+  ],
+  "font_portability": {
+    "custom_directory_env": "MFE_REPORT_FONT_DIR",
+    "fallback": "ReportLab built-in Times",
+    "current_runtime_raster_comparison": "all five pages identical",
+    "without_runtime_env_import": "passed",
+    "without_font_files_import": "passed",
+    "full_builtin_fallback_build": "passed",
+    "custom_override_precedence": "passed"
+  },
+  "scope": "Personalized assessment PDF was reviewed; repository builders redact identity fields."
+}

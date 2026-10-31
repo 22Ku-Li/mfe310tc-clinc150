@@ -1,0 +1,9 @@
+sample_id,split,source_key,source_index,text,label,normalized_text,word_count,character_count
+val_val_01794,val,val,1794,turn up your volume,change_volume,turn up your volume,4,19
+train_train_11130,train,train,11130,turn up your volume,whisper_mode,turn up your volume,4,19
+val_val_01011,val,val,1011,what is on my to do list,reminder,what is on my to do list,7,24
+train_train_07424,train,train,7424,what is on my to do list,todo_list,what is on my to do list,7,24
+test_test_00938,test,test,938,what's your designation,user_name,what's your designation,3,23
+train_train_12066,train,train,12066,what's your designation,what_is_your_name,what's your designation,3,23
+train_train_14018,train,train,14018,where did you grow up,how_old_are_you,where did you grow up,5,21
+test_test_00599,test,test,599,where did you grow up,where_are_you_from,where did you grow up,5,21

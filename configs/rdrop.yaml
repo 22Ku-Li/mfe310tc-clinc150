@@ -1,0 +1,36 @@
+experiment_name: m2_distilbert_rdrop
+seed: 42
+
+model:
+  source_model_name: distilbert-base-uncased
+  source_revision: main
+  local_model_path: artifacts/pretrained/distilbert-base-uncased
+  max_length: 64
+  loss: rdrop
+
+training:
+  device: cuda
+  epochs: 5
+  batch_size: 16
+  learning_rate: 0.00002
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  gradient_accumulation_steps: 1
+  max_grad_norm: 1.0
+  early_stopping_patience: 2
+  early_stopping_min_delta: 0.0
+  mixed_precision: true
+  deterministic: true
+  num_workers: 0
+
+rdrop:
+  alpha: 4.0
+
+data:
+  train_path: data/processed/train.csv
+  val_path: data/processed/val.csv
+  test_path: data/processed/test.csv
+
+evaluation:
+  oos_label: oos
+  default_split: val

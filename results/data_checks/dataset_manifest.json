@@ -1,0 +1,21 @@
+{
+  "dataset": "CLINC150",
+  "version": "data_full",
+  "source_url": "https://archive.ics.uci.edu/static/public/570/clinc150.zip",
+  "dataset_doi": "https://doi.org/10.24432/C5MP58",
+  "official_repository": "https://github.com/clinc/oos-eval",
+  "official_repository_commit": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+  "license": "UCI metadata: CC BY 4.0; bundled LICENSE: Attribution 3.0 Unported (discrepancy documented)",
+  "license_file": "data/raw/LICENSE",
+  "license_note": "The UCI webpage and bundled license file report different versions; both are preserved with attribution.",
+  "raw_file": "data/raw/data_full.json",
+  "raw_sha256": "36923c3705a59e08fe9c3883d8bc2dd966ef93e22cb78ac41171782a698d56e0",
+  "archive_sha256": "0d8ecc3e1edd7b25cabde0177544ce536ddf773844bc80ef1a75f36e7f030ea2",
+  "processed_at_utc": "2026-10-27T18:32:39.702620+00:00",
+  "row_count": 23700,
+  "split_counts": {
+    "train": 15100,
+    "val": 3100,
+    "test": 5500
+  }
+}

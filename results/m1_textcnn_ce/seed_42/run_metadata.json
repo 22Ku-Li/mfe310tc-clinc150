@@ -1,0 +1,15 @@
+{
+  "command": "src/train_textcnn.py --config configs/textcnn.yaml --seed 42 --device cpu",
+  "python_version": "3.12.14 (main, Sep  1 2026, 14:17:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy_version": "2.5.4",
+  "pandas_version": "3.0.2",
+  "torch_version": "2.14.1+cpu",
+  "config_sha256": "b665bdd123159bedfc54c6f55627462b6bbacfce9d3893a7001e9050ec24defe",
+  "train_csv_sha256": "42ca9face28c6adf1bbfd771e280f4de5d630b953208088c8378c56c44e98702",
+  "validation_csv_sha256": "814a159864c53603e50be401616738c046146bbcfc9c344c932d3374957150e6",
+  "deterministic_algorithms": true,
+  "test_used_for_model_selection": false,
+  "approved_remote_linux_gpu_used": false,
+  "gpu_practice_requirement_met": false
+}

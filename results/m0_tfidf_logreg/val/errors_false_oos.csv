@@ -1,0 +1,8 @@
+sample_id,text,true_label,predicted_label,predicted_probability,true_label_probability,oos_score,correct,error_type
+val_val_00820,who has the best credit card offering for a college student,new_card,oos,0.11401658,0.029395605,0.11401658,False,false_oos_rejection
+val_val_01613,how is the steamed fish at harbor village,restaurant_reviews,oos,0.060830474,0.03405449,0.060830474,False,false_oos_rejection
+val_val_01614,how is dim sum at legend,restaurant_reviews,oos,0.052239764,0.018319419,0.052239764,False,false_oos_rejection
+val_val_02374,wassup,greeting,oos,0.04130375,0.01792562,0.04130375,False,false_oos_rejection
+val_val_00944,find the favorite destination for traveling this year,travel_suggestion,oos,0.03657695,0.0335383,0.03657695,False,false_oos_rejection
+val_val_01074,invalid,no,oos,0.029434592,0.013115407,0.029434592,False,false_oos_rejection
+val_val_00443,perhaps,maybe,oos,0.027634764,0.024256738,0.027634764,False,false_oos_rejection

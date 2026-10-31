@@ -1,0 +1,59 @@
+{
+  "status": "controlled_design_valid",
+  "m1_config": "configs/textcnn.yaml",
+  "m2_config": "configs/textcnn_rdrop.yaml",
+  "allowed_differences": {
+    "experiment_name": {
+      "m1": "m1_textcnn_ce",
+      "m2": "m2_textcnn_rdrop"
+    },
+    "model.loss": {
+      "m1": "cross_entropy",
+      "m2": "rdrop"
+    },
+    "rdrop.alpha": {
+      "m1": 0.0,
+      "m2": 1.0
+    }
+  },
+  "shared_configuration": {
+    "seed": 42,
+    "model.max_length": 32,
+    "model.vocab_size": 20000,
+    "model.min_token_frequency": 2,
+    "model.embedding_dim": 100,
+    "model.filter_sizes": [
+      3,
+      4,
+      5
+    ],
+    "model.num_filters": 100,
+    "model.dropout": 0.5,
+    "training.device": "cpu",
+    "training.epochs": 12,
+    "training.batch_size": 64,
+    "training.learning_rate": 0.001,
+    "training.weight_decay": 0.0001,
+    "training.warmup_ratio": 0.05,
+    "training.gradient_accumulation_steps": 1,
+    "training.max_grad_norm": 5.0,
+    "training.early_stopping_patience": 3,
+    "training.early_stopping_min_delta": 0.0,
+    "training.mixed_precision": false,
+    "training.deterministic": true,
+    "training.num_workers": 0,
+    "data.train_path": "data/processed/train.csv",
+    "data.val_path": "data/processed/val.csv",
+    "data.test_path": "data/processed/test.csv",
+    "evaluation.oos_label": "oos",
+    "evaluation.default_split": "val"
+  },
+  "planned_seeds": [
+    13,
+    42,
+    87
+  ],
+  "selection_metric": "validation_macro_f1",
+  "test_policy": "Test evaluation is guarded and occurs only after all configurations are frozen",
+  "execution_note": "Formal runs are CPU-reproducible. The approved remote Linux GPU practice requirement is not claimed."
+}

@@ -1,0 +1,37 @@
+experiment_name: m1_textcnn_ce
+seed: 42
+model:
+  max_length: 32
+  vocab_size: 20000
+  min_token_frequency: 2
+  embedding_dim: 100
+  filter_sizes:
+  - 3
+  - 4
+  - 5
+  num_filters: 100
+  dropout: 0.5
+  loss: cross_entropy
+training:
+  device: cpu
+  epochs: 12
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  warmup_ratio: 0.05
+  gradient_accumulation_steps: 1
+  max_grad_norm: 5.0
+  early_stopping_patience: 3
+  early_stopping_min_delta: 0.0
+  mixed_precision: false
+  deterministic: true
+  num_workers: 0
+rdrop:
+  alpha: 0.0
+data:
+  train_path: data/processed/train.csv
+  val_path: data/processed/val.csv
+  test_path: data/processed/test.csv
+evaluation:
+  oos_label: oos
+  default_split: val

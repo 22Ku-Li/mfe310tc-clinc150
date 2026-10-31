@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks_performed": 46,
+  "slides": 8,
+  "target_seconds": 280,
+  "student": "STUDENT_NAME_REDACTED",
+  "student_id": "STUDENT_ID_REDACTED",
+  "group": "Individual project (one-person group)",
+  "inference_examples": 3,
+  "errors": []
+}

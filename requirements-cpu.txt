@@ -1,0 +1,3 @@
+# Suggested compatible CPU environment; not an exact reconstruction of the historic run.
+-r requirements.txt
+torch>=2.2,<3.0
